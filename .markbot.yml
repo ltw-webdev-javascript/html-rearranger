@@ -1,4 +1,5 @@
-repo: 'html-rearranger'
+repo: "html-rearranger"
+canvasCourse: javascript
 
 naming: true
 restrictFileTypes: true
@@ -10,16 +11,16 @@ git:
   allSynced: true
 
 html:
-  - path: 'index.html'
+  - path: "index.html"
     locked: true
 
 js:
-  - path: 'js/main.js'
+  - path: "js/main.js"
     valid: true
     bestPractices: true
     search:
-      - 'Below ground veggies'
-      - 'Above ground veggies'
+      - "Below ground veggies"
+      - "Above ground veggies"
       - '\$\('
     searchNot:
       - 'document.write\('
@@ -28,5 +29,5 @@ js:
       - 'prompt\('
 
 screenshots:
-  - path: 'index.html'
+  - path: "index.html"
     sizes: [320]
